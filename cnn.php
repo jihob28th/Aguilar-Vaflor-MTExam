@@ -21,14 +21,15 @@
     <head> <title> World Sport Daily: CNN News</title> 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body> 
-         <h3><?php echo $title;?> </h3>
+    <body>
+      <div class="articles">  
+        <br/><h3><?php echo $title;?> </h3>
              <ul><br/>
-                        <li> <?php echo $description; ?> </li> <br/> <br/>
+                        <li> <?php echo $description; ?> </li> <br/> <br/><br/>
                         <li> <b> Link: </b> <a href="<?php echo $link;?>" target="blank"> <?php echo $link;?>  </a> </li><br/>
                         <li> <b> Published Date:</b> <?php echo $pubDate ?></li><br/>
             </ul><br/><br/>
-                        
+      </div><br/>          
  <?php
  }
 ?>

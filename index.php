@@ -9,16 +9,16 @@ $loadnav = (isset($_GET['loadnav']) && $_GET['loadnav'] != '') ? $_GET['loadnav'
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body bgcolor="black">
-        <div class="wrapper">
+        
             <div class="header">  </div>
             <div class="navhead">
             
                     <div class="navigation">
                         <ul> 
-                            <li> <a href="index.php?loadnav=home"> HOME </a> </li>
-                            <li> <a href="index.php?loadnav=bbc"> BBC SPORTS </a> </li>
-                            <li> <a href="index.php?loadnav=cnn"> CNN SPORTS  </a> </li>
-                            <li> <a href="index.php?loadnav=aboutus"> ABOUT US </a> </li>
+                            <li> <a href="index.php?loadnav=home"> <b>HOME </b></a> </li>
+                            <li> <a href="index.php?loadnav=bbc"> <b>BBC SPORTS </b></a> </li>
+                            <li> <a href="index.php?loadnav=cnn"> <b>CNN SPORTS  </b></a> </li>
+                            <li> <a href="index.php?loadnav=aboutus"> <b>ABOUT US </b></a> </li>
                         </ul>
                         </div>
                     </div>              
@@ -41,12 +41,11 @@ $loadnav = (isset($_GET['loadnav']) && $_GET['loadnav'] != '') ? $_GET['loadnav'
                             }
                             ?>
                         </div>
-        </div>
-        <div class="footer">
+            <div class="footer">
             <div class="form">
-
-                    </br></br></br>2019 World Sport Daily. All rights reserved.
+                    <b></br>&#169; 2019 World Sport Daily. All rights reserved.</b>
                 </div>
-        </div>  
+        </div>
+ 
     </body>
 </html>
